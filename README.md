@@ -30,15 +30,6 @@
 |<a href="@resource/@screenshot/22-studio109.v1.jpg"><img alt="22-studio109.v1.jpg" title="22-studio109.v1.jpg" src="@resource/@screenshot/22-studio109.v1.jpg" width="240px" /></a>|frm_Music : [pas](@project/Studio109/frm_Music.pas) ~ [dfm](@project/Studio109/frm_Music.dfm)|
 |<a href="@resource/@screenshot/23-studio109.v1.jpg"><img alt="23-studio109.v1.jpg" title="23-studio109.v1.jpg" src="@resource/@screenshot/23-studio109.v1.jpg" width="240px" /></a>|frm_MemberProfile : [pas](@project/Studio109/frm_MemberProfile.pas) ~ [dfm](@project/Studio109/frm_MemberProfile.dfm)|
 
-## architecture
-|model|source|
-|:---:|---:|
-|<a href="https://dhouse109.github.io/sln-109.01.2004-music.explorer/p_overview_diagram.html"><img alt="overview" title="overview" src="@resource/@model/ess-model/p_overview.png" width="480px" /></a>|ess-model : [overview](https://dhouse109.github.io/sln-109.01.2004-music.explorer)|
-|<a href="https://dhouse109.github.io/sln-109.01.2004-music.explorer/p_xmi_145_diagram.html"><img alt="overview" title="overview" src="@resource/@model/ess-model/p_xmi_145.png" width="480px" /></a>|dat_Main : [pas](@project/Studio109/dat_Main.pas) ~ [dfm](@project/Studio109/dat_Main.dfm)|
-|<a href="https://dhouse109.github.io/sln-109.01.2004-music.explorer/p_xmi_883_diagram.html"><img alt="overview" title="overview" src="@resource/@model/ess-model/p_xmi_883.png" width="480px" /></a>|frm_Main : [pas](@project/Studio109/frm_Main.pas) ~ [dfm](@project/Studio109/frm_Main.dfm)|
-|<a href="https://dhouse109.github.io/sln-109.01.2004-music.explorer/p_xmi_994_diagram.html"><img alt="overview" title="overview" src="@resource/@model/ess-model/p_xmi_994.png" width="480px" /></a>|frn_AppModule : [pas](@project/Studio109/frn_AppModule.pas) ~ [dfm](@project/Studio109/frn_AppModule.dfm)|
-|<a href="https://dhouse109.github.io/sln-109.01.2004-music.explorer/p_xmi_2777_diagram.html"><img alt="overview" title="overview" src="@resource/@model/ess-model/p_xmi_2777.png" width="480px" /></a>|frm_109Music : [pas](@project/Studio109/frm_109Music.pas) ~ [dfm](@project/Studio109/frm_109Music.dfm)|
-
 ## resource
 - [model](@resource/@model)
 - [screenshot](@resource/@screenshot)
