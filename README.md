@@ -1,6 +1,6 @@
 # sln-109.01.2004-music.explorer
 
-109.01.2004 ~ 1.year : 109.studios
+109.01.2004 ~ 1.year : 109.studio
 
 ## solution
 *knowledge-management*, *media-player*, *file-manager*, *file-sharing*, *social-network*, *application*, *software*, *database*, *enterprise*, *information-management-system* ~ *client-server*, *thin-client*, *p2p*, *web-browser*, *windows-2k*, *linux*, *apache-2*, *mysql-5*, *php-5*, *sql*, *view*, *stored-proc*, *javascript*, *html*, *css*, *object-pascal*, *delphi-7*
@@ -33,6 +33,3 @@
 ## resource
 - [model](@resource/@model)
 - [screenshot](@resource/@screenshot)
-
-## reference
-https://web.archive.org/web/20161125234736/http://damien.house/portfolio/solution-109.01.2004
