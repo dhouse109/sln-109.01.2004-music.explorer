@@ -1,0 +1,331 @@
+object frmWAYLTDLG: TfrmWAYLTDLG
+  Left = 732
+  Top = 225
+  ActiveControl = mmoMessage
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'WIP Post'
+  ClientHeight = 308
+  ClientWidth = 307
+  Color = 15790320
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object layoutWAYLT: TdxLayoutControl
+    Left = 0
+    Top = 18
+    Width = 307
+    Height = 290
+    Align = alClient
+    ParentBackground = True
+    TabOrder = 0
+    AutoContentSizes = [acsWidth, acsHeight]
+    LookAndFeel = datMain.layoutLookFeelMain_Web
+    object Panel37: TPanel
+      Left = 4
+      Top = 7
+      Width = 150
+      Height = 13
+      BevelOuter = bvNone
+      Color = 10526880
+      TabOrder = 6
+    end
+    object Panel38: TPanel
+      Left = 4
+      Top = 270
+      Width = 150
+      Height = 13
+      BevelOuter = bvNone
+      Color = 10526880
+      TabOrder = 7
+    end
+    object lblSubmit: TcxLabel
+      Left = 96
+      Top = 247
+      Width = 36
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Submit'
+      ParentColor = False
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Properties.Transparent = True
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = [fsUnderline]
+      Style.HotTrack = False
+      TabOrder = 8
+      OnClick = lblSubmitClick
+      OnMouseEnter = cxLabelMouseEnterWhite
+      OnMouseLeave = cxLabelMouseLeaveWhite
+    end
+    object lblCancel: TcxLabel
+      Left = 138
+      Top = 247
+      Width = 36
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Cancel'
+      ParentColor = False
+      ParentFont = False
+      Properties.Transparent = True
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = [fsUnderline]
+      Style.HotTrack = False
+      TabOrder = 9
+      OnClick = lblCancelClick
+      OnMouseEnter = cxLabelMouseEnterWhite
+      OnMouseLeave = cxLabelMouseLeaveWhite
+    end
+    object edtArtist: TEdit
+      Left = 64
+      Top = 52
+      Width = 263
+      Height = 17
+      BorderStyle = bsNone
+      Color = 5987163
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      MaxLength = 100
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object mmoMessage: TcxMemo
+      Left = 63
+      Top = 151
+      Width = 265
+      Height = 89
+      ParentFont = False
+      Properties.MaxLength = 255
+      Style.BorderColor = 10526880
+      Style.BorderStyle = ebsSingle
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = False
+      TabOrder = 5
+    end
+    object lblPolicy: TcxLabel
+      Left = 180
+      Top = 247
+      Width = 31
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Policy'
+      ParentColor = False
+      ParentFont = False
+      Properties.Transparent = True
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = [fsUnderline]
+      Style.HotTrack = False
+      TabOrder = 10
+      OnClick = lblPolicyClick
+      OnMouseEnter = cxLabelMouseEnterWhite
+      OnMouseLeave = cxLabelMouseLeaveWhite
+    end
+    object edtTitle: TEdit
+      Left = 64
+      Top = 27
+      Width = 256
+      Height = 17
+      BorderStyle = bsNone
+      Color = 5987163
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      MaxLength = 100
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object edtAlbum: TEdit
+      Left = 64
+      Top = 77
+      Width = 223
+      Height = 17
+      BorderStyle = bsNone
+      Color = 5987163
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      MaxLength = 100
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object edtLength: TEdit
+      Left = 64
+      Top = 127
+      Width = 246
+      Height = 17
+      BorderStyle = bsNone
+      Color = 5987163
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      MaxLength = 20
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 4
+    end
+    object edtGenre: TEdit
+      Left = 64
+      Top = 102
+      Width = 246
+      Height = 17
+      BorderStyle = bsNone
+      Color = 5987163
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWhite
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      MaxLength = 50
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 3
+    end
+    object dxLayoutGroup17: TdxLayoutGroup
+      ShowCaption = False
+      Hidden = True
+      ShowBorder = False
+      object dxLayoutGroup18: TdxLayoutGroup
+        AutoAligns = []
+        AlignHorz = ahClient
+        AlignVert = avClient
+        CaptionOptions.AlignHorz = taCenter
+        LookAndFeel = datMain.layoutLookFeelMain_WebAlt5
+        ShowCaption = False
+        object dxLayoutItem19: TdxLayoutItem
+          ShowCaption = False
+          Control = Panel37
+          ControlOptions.ShowBorder = False
+        end
+        object layoutWAYLTItem3: TdxLayoutItem
+          Caption = 'Title:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Control = edtTitle
+          ControlOptions.AutoColor = True
+        end
+        object layoutWAYLTItem7: TdxLayoutItem
+          Caption = 'Artist:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Control = edtArtist
+          ControlOptions.AutoColor = True
+        end
+        object layoutWAYLTItem5: TdxLayoutItem
+          Caption = 'Album:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Control = edtAlbum
+          ControlOptions.AutoColor = True
+        end
+        object layoutWAYLTItem9: TdxLayoutItem
+          Caption = 'Genre:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Control = edtGenre
+          ControlOptions.AutoColor = True
+        end
+        object layoutWAYLTItem6: TdxLayoutItem
+          Caption = 'Length:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Control = edtLength
+          ControlOptions.AutoColor = True
+        end
+        object layoutWAYLTItem8: TdxLayoutItem
+          Caption = 'Message:'
+          CaptionOptions.AlignHorz = taRightJustify
+          CaptionOptions.AlignVert = tavTop
+          Control = mmoMessage
+          ControlOptions.AutoColor = True
+          ControlOptions.ShowBorder = False
+        end
+        object layoutWAYLTGroup3: TdxLayoutGroup
+          AutoAligns = []
+          AlignHorz = ahCenter
+          AlignVert = avBottom
+          Caption = 'New Group'
+          ShowCaption = False
+          LayoutDirection = ldHorizontal
+          ShowBorder = False
+          object layoutWAYLTItem4: TdxLayoutItem
+            AutoAligns = [aaVertical]
+            ShowCaption = False
+            Control = lblSubmit
+            ControlOptions.AutoColor = True
+            ControlOptions.ShowBorder = False
+          end
+          object layoutWAYLTItem1: TdxLayoutItem
+            AutoAligns = [aaVertical]
+            Caption = 'cxLabel1'
+            ShowCaption = False
+            Control = lblCancel
+            ControlOptions.AutoColor = True
+            ControlOptions.ShowBorder = False
+          end
+          object layoutWAYLTItem2: TdxLayoutItem
+            AutoAligns = [aaVertical]
+            ShowCaption = False
+            Control = lblPolicy
+            ControlOptions.AutoColor = True
+            ControlOptions.ShowBorder = False
+          end
+        end
+        object dxLayoutItem21: TdxLayoutItem
+          AutoAligns = [aaHorizontal]
+          AlignVert = avBottom
+          ShowCaption = False
+          Control = Panel38
+          ControlOptions.ShowBorder = False
+        end
+      end
+    end
+  end
+  object titleMain: TFlatTitlebar
+    Left = 0
+    Top = 0
+    Width = 307
+    Height = 18
+    ActiveTextColor = clWhite
+    InactiveTextColor = clSilver
+    TitlebarColor = clGray
+    Align = alTop
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    Caption = 'Post What I'#39'm Playing'
+  end
+end

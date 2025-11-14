@@ -1,0 +1,46 @@
+# Host: localhost
+# Database: db109
+# Table: 'tblMems'
+# 
+CREATE TABLE `tblMems` (
+  `ID` int(11) NOT NULL auto_increment,
+  `Name` varchar(255) NOT NULL default '',
+  `Password` varchar(32) NOT NULL default '',
+  `Email` varchar(60) NOT NULL default '',
+  `Joined` date NOT NULL default '0000-00-00',
+  `Nickname` varchar(100) default '',
+  `LName` varchar(50) default NULL,
+  `FName` varchar(50) default NULL,
+  `Gender` char(1) default NULL,
+  `Country` varchar(100) default '',
+  `City` varchar(100) default NULL,
+  `State` char(2) default NULL,
+  `Zip` varchar(10) default NULL,
+  `Location` varchar(255) default '',
+  `Hometown` varchar(255) default '',
+  `Avatar` varchar(128) default NULL,
+  `AIM` varchar(40) default NULL,
+  `MSN` varchar(64) default NULL,
+  `Yahoo` varchar(32) default NULL,
+  `Occupation` varchar(50) default NULL,
+  `Schools` varchar(255) default NULL,
+  `AboutMe` varchar(255) default NULL,
+  `WebsiteURL` varchar(70) default NULL,
+  `BlogURL` varchar(255) default NULL,
+  `PhotoAlbumURL` varchar(255) default '',
+  `ListInDirectory` tinyint(4) default NULL,
+  `bday_day` int(2) default NULL,
+  `bday_month` int(2) default NULL,
+  `bday_year` int(4) default NULL,
+  PRIMARY KEY  (`ID`),
+  KEY `ID` (`ID`),
+  KEY `Name` (`Name`),
+  KEY `Email` (`Email`),
+  KEY `Nickname` (`Nickname`),
+  KEY `State` (`State`),
+  KEY `Zip` (`Zip`),
+  KEY `ListInDirectory` (`ListInDirectory`),
+  KEY `bday_day` (`bday_day`),
+  KEY `bday_month` (`bday_month`)
+) TYPE=MyISAM; 
+

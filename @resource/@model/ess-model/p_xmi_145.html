@@ -1,0 +1,5069 @@
+<html>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+</head>
+<body class="body">
+<table width="100%">
+<tr>
+<td><span class="p_name">Package: dat_Main</span></td>
+<td class="t_cell"><a href="p_xmi_145_diagram.html">Diagram</a></td>
+<td class="t_cell"><a href="index.html">Back to overview</a></td>
+</tr>
+</table>
+<p></p><a name="xmi_55"></a><table width="500" cellspacing="1" cellpadding="2" border="0">
+<tr>
+<td class="ClassTableHeader" width="200"><b>TConnectionNodeRec</b></td>
+<td class="ClassTableHeader" width="150">
+        class
+      </td>
+</tr>
+</table>    
+
+    Inherits from: 
+
+    TObject<br><b>Attributes</b><table width="100%" cellpadding="3" cellspacing="0" border="1">
+<tr>
+<td class="tableheader">Name</td>
+<td class="tableheader">Type</td>
+<td class="tableheader">Visibility</td>
+</tr>
+<tr>
+<td class="t_cell">ID</td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Mem_ID</td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Name</td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Nickname</td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+</table><br><br><a name="xmi_5"></a><table width="500" cellspacing="1" cellpadding="2" border="0">
+<tr>
+<td class="ClassTableHeader" width="200"><b>TdatMain</b></td>
+<td class="ClassTableHeader" width="150">
+        class
+      </td>
+</tr>
+</table>    
+
+    Inherits from: 
+
+    TDataModule<br><b>Attributes</b><table width="100%" cellpadding="3" cellspacing="0" border="1">
+<tr>
+<td class="tableheader">Name</td>
+<td class="tableheader">Type</td>
+<td class="tableheader">Visibility</td>
+</tr>
+<tr>
+<td class="t_cell">FUserName</td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FUPassword</td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FMem_ID</td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FProcssing</td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FLoggedIn</td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FFileMask_Audio</td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FAddToPlaylistID</td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">dxDockingManagerMain</td>
+<td class="t_cell">TdxDockingManager
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLookFeelMain</td>
+<td class="t_cell">TcxLookAndFeelController
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imglstMain_24</td>
+<td class="t_cell">TImageList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imglstMain_24_Hover</td>
+<td class="t_cell">TImageList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imglstMain_16</td>
+<td class="t_cell">TImageList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imglstMain_16_Hover</td>
+<td class="t_cell">TImageList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_Web</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">stylereposMain</td>
+<td class="t_cell">TcxStyleRepository
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Content</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Category</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Header</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryFindUserAndPass</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryFindUserAndPassName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryFindUserAndPassPassword</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ieMain</td>
+<td class="t_cell">TIEHTTP
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">xmlMain</td>
+<td class="t_cell">TXMLDocument
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_Insert</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryFindUserAndPassID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBBBTitle</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBBBMessage</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems_BB</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBNickname</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleGridContent_Even</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Header2</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleGridContent_Selection</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelAlt</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_WebAlt</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfile</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField3</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems_MiniProfile</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileGender</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileOccupation</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileSchools</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Picture</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemPic</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMemPic</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemPicMemPic</td>
+<td class="t_cell">TBlobField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBBBDatePosted</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBBBTimePosted</td>
+<td class="t_cell">TTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileHometown</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertBBTitle</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertBBMessage</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertBBMessageTo_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertBBDatePosted</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertBBTimePosted</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsNickname</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsGender</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsAge</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsHometown</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imglstMain_1616</td>
+<td class="t_cell">TImageList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">adpInstance_Main</td>
+<td class="t_cell">TadpInstanceControl
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleGridContent_Odd</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryFindUser</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField12</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField10</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imglstMetaTree</td>
+<td class="t_cell">TImageList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_1stDegree_Info</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_1stDegree_InfoMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_1stDegree_InfoName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_1stDegree_InfoNickname</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Mem_Info</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField14</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField11</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField12</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblMemsThumbs</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblMemsThumbsMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblMemsThumbsImageListIndex</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleTree_Content</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleTree_Content_HotTracked</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleTree_Content_Selected</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleGridGroupByBox</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelAlt2</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_WebAlt2</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsRecord_Start</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsRecords_Total</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileAge</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBRecord_Start</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBRecords_Total</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelAlt3</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_WebAlt3</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelAlt4</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_WebAlt4</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsLocation</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_PictureAvatarPic</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileLocation</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileAboutMe</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileBlogURL</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfilePhotoAlbumURL</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileWebsiteURL</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileAIM</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileMSN</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileYahoo</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleGrid_Header2</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cssCardView</td>
+<td class="t_cell">TcxGridCardViewStyleSheet
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Border</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsMemPic</td>
+<td class="t_cell">TGraphicField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBMemPic</td>
+<td class="t_cell">TGraphicField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cssTableView</td>
+<td class="t_cell">TcxGridTableViewStyleSheet
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cssVertGrid</td>
+<td class="t_cell">TcxVerticalGridStyleSheet
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dbStudio109</td>
+<td class="t_cell">TADOConnection
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracks</td>
+<td class="t_cell">TADOTable
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsTracks</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsNowPlaying</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsPlaylists</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsPlaylist_Tracks</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksID</td>
+<td class="t_cell">TAutoIncField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksFilePath</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksFileName</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksFileSize</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksFileSizeText</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksRating</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksDateCreated</td>
+<td class="t_cell">TDateTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksDateImported</td>
+<td class="t_cell">TDateTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVTitle</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVDuration</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVArtist</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVAlbum</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVGenre</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVSampleRate</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVBitRate</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVMode</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAVTrackPlaylist</td>
+<td class="t_cell">TMemoField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Content2</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelAlt5</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_WebAlt5</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelAlt6</td>
+<td class="t_cell">TdxLayoutLookAndFeelList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutLookFeelMain_WebAlt6</td>
+<td class="t_cell">TdxLayoutWebLookAndFeel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileFavArtists</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BBBBLink</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleCardSelection</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleCardCaption</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlaying_</td>
+<td class="t_cell">TADOTable
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlaying</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingTrack_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingAVTitle</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingAVDuration</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylists</td>
+<td class="t_cell">TADOTable
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylistsID</td>
+<td class="t_cell">TAutoIncField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylistsName</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylistsDescription</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylistsDateCreated</td>
+<td class="t_cell">TDateTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylist_Tracks_</td>
+<td class="t_cell">TADOTable
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylist_Tracks_ID</td>
+<td class="t_cell">TAutoIncField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylist_Tracks_Playlist_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylist_Tracks_TrackNum</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblPlaylist_Tracks_Track_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_Tracks</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksID</td>
+<td class="t_cell">TAutoIncField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksPlaylist_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksTrackNum</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksTrack_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksFilePath</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksFileName</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksFileSize</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksFileSizeText</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksRating</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksDateCreated</td>
+<td class="t_cell">TDateTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksDateImported</td>
+<td class="t_cell">TDateTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVTitle</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVDuration</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVArtist</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVAlbum</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVGenre</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVSampleRate</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVBitRate</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVMode</td>
+<td class="t_cell">TWideStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAVTrackPlaylist</td>
+<td class="t_cell">TMemoField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_Tracks_Delete</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_Tracks_DeleteTrack</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryTracks_DeleteTrack</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_Tracks_DeleteTrackPlaylist</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingFilePath</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingAVArtist</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingAVAlbum</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingLastPlayed</td>
+<td class="t_cell">TDateTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField1</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField2</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField1</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField2</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DateField1</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">TimeField1</td>
+<td class="t_cell">TTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField4</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField5</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField6</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField7</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField3</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField4</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLTMemPic</td>
+<td class="t_cell">TGraphicField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsWAYLT</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLTAVLength</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMem_WAYLT</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField5</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField6</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField8</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField9</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DateField2</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">TimeField2</td>
+<td class="t_cell">TTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField19</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField20</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField21</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField22</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField23</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField8</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField9</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMem_WAYLT</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_BB_InsertBBLink</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryServerDateTime</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryServerDateTimeServerDate</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryServerDateTimeServerTime</td>
+<td class="t_cell">TTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_Insert</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField10</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField11</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField24</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField25</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField26</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField27</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_InsertAVArtist</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_InsertAVAlbum</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_InsertAVLength</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Connects</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsRecord_Start</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsRecords_Total</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems_Connects</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsEmail</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsIsMember</td>
+<td class="t_cell">TBooleanField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsSelected</td>
+<td class="t_cell">TBooleanField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Profile</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField7</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField13</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField14</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileGender</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField16</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField17</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField18</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField28</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField29</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField30</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField31</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField32</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField33</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField34</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField35</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField36</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems_Profile</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Profilebday_year</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Profilebday_month</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Profilebday_day</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileBirthday</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileLName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileFName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileCountry</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileCity</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileState</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileZip</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryProfileMemPic</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryProfileMemPicMemPic</td>
+<td class="t_cell">TBlobField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsProfileMemPic</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Profile_Update</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField13</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField15</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField37</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField38</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField39</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField40</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField41</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField42</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField43</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField44</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField45</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField46</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField47</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField48</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField49</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField50</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField51</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField52</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField53</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField54</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField55</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField56</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileListInDirectory</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Profile_UpdateListInDirectory</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryNowPlaying_Delete</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlaying_ID</td>
+<td class="t_cell">TAutoIncField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlaying_Track_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLTAVGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMem_WAYLTAVGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_InsertAVGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblNowPlayingAVGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_Summary</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField60</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField61</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField62</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField63</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField64</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField20</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsWAYLT_Summary</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_Summary_Posts</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField18</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField19</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField57</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField58</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DateField3</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">TimeField3</td>
+<td class="t_cell">TTimeField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField59</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsWAYLT_Summary_Posts</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">styleVertGrid_Preview</td>
+<td class="t_cell">TcxStyle
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfile</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsAlbumProfile</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfile</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsArtistProfile</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_Summary</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems_DL_Summary</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_Fav</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsMems_Fav</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileArtist_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileAlbumName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileAlbumLabel</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileDateReleased</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileTotalTracks</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileTotalLength</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileAlbumGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileAlbumIsMix</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumProfileAlbumPic</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileArtistName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileBasedIn</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileArtistLabel</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileAffiliation</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileArtistWeb</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileJoinDate</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistProfileArtistPic</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavMem_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavDateCreated</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavArtist_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavMemo</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavArtistName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavBasedIn</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavArtistLabel</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavAfilliation</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavArtistWeb</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavJoinDate</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavArtistPic</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryDateCreated</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryTrack_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryAlbum_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryAlbumName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryTrackNum</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryTrackTitle</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryTrackLength</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummarySubGenre</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryFile_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryDateAdded</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummarySTServer</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryDLServer</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryFileSize</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryFileSizeText</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryPartOfMix</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryActive</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryTracks_Search</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField21</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField24</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField65</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField25</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField66</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField67</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField68</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField69</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField26</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DateField5</td>
+<td class="t_cell">TDateField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField70</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField71</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField27</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StringField72</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField28</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">IntegerField29</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsTracks_Search</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryArtist_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryArtistName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryTracks_SearchArtist_ID</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryTracks_SearchArtistName</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_DL_SummaryTotalPosts</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavRecord_Start</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_FavRecords_Total</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryTracks_SearchRecord_Start</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryTracks_SearchRecords_Total</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumPic</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryAlbumPicAlbumPic</td>
+<td class="t_cell">TBlobField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsAlbumPic</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistPic</td>
+<td class="t_cell">TdxMemData
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryArtistPicArtistPic</td>
+<td class="t_cell">TBlobField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dsArtistPic</td>
+<td class="t_cell">TDataSource
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfilemgroup</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfiletitle</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsmgroup</td>
+<td class="t_cell">TIntegerField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemstitle</td>
+<td class="t_cell">TStringField
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Mem_ID</td>
+<td class="t_cell"><a href="p_.html#"></a>
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">UserName</td>
+<td class="t_cell"><a href="p_.html#"></a>
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LoggedIn</td>
+<td class="t_cell"><a href="p_.html#"></a>
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">FileMask_Audio</td>
+<td class="t_cell"><a href="p_.html#"></a>
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">AddToPlaylistID</td>
+<td class="t_cell"><a href="p_.html#"></a>
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+</table><b>Operations</b><table width="100%" cellpadding="3" cellspacing="0" border="1">
+<tr>
+<td class="tableheader">Name</td>
+<td class="tableheader">Parameters</td>
+<td class="tableheader">Returns</td>
+<td class="tableheader">Visibility</td>
+</tr>
+<tr>
+<td class="t_cell">DataModuleDestroy</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseEnter</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseLeave</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseEnterWhite</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseLeaveWhite</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsAfterScroll</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">DataSet</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DataModuleCreate</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksAfterPost</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">DataSet</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksAfterPost</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">DataSet</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksRatingGetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">DisplayText</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tblTracksRatingSetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksRatingGetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">DisplayText</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryPlaylist_TracksRatingSetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfileGenderGetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">DisplayText</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMemsGenderGetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">DisplayText</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ConnectsCalcFields</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">DataSet</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileGenderGetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">DisplayText</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileGenderSetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_ProfileBirthdayChange</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ieMainPacketRead</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryMems_MiniProfilemgroupGetText</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TField</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Text</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">DisplayText</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetWindowsTemp</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">SecondsToTime</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">LongInt</td>
+<td class="t_cell">timesec</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TDateTime
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ShortFileName</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">FileName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LongFileName</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ShortName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Mince</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">PathToMince</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">InSpace</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">MergeForm</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TWinControl</td>
+<td class="t_cell">AControl</td>
+</tr>
+<tr>
+<td class="t_cell">TForm</td>
+<td class="t_cell">AForm</td>
+</tr>
+<tr>
+<td class="t_cell">TAlign</td>
+<td class="t_cell">Align</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">Show</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">CreateAndMergeForm</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TFormClass</td>
+<td class="t_cell">FormClass</td>
+</tr>
+<tr>
+<td class="t_cell">TForm</td>
+<td class="t_cell">Reference</td>
+</tr>
+<tr>
+<td class="t_cell">TWinControl</td>
+<td class="t_cell">AControl</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">CallPrepare</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">CloseAndDestroy</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TForm</td>
+<td class="t_cell">AForm</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">QueryServerLoadXML</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TdxMemData</td>
+<td class="t_cell">ADataset</td>
+</tr>
+<tr>
+<td class="t_cell">TMemoryStream</td>
+<td class="t_cell">AXMLStream</td>
+</tr>
+<tr>
+<td class="t_cell">TStringList</td>
+<td class="t_cell">AParams</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">QueryServer</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AScriptName</td>
+</tr>
+<tr>
+<td class="t_cell">TMemoryStream</td>
+<td class="t_cell">AXMLStream</td>
+</tr>
+<tr>
+<td class="t_cell">TStringList</td>
+<td class="t_cell">AParams</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PostDataToServer</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AScriptName</td>
+</tr>
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">ADataset</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATableName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DatasetLoadXML</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TdxMemData</td>
+<td class="t_cell">ADataset</td>
+</tr>
+<tr>
+<td class="t_cell">TMemoryStream</td>
+<td class="t_cell">AXMLStream</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">SignIn</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AUserName</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APassword</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">SignOut</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ConvertDatasetToXML</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">ADataset</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATableName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GenericInsert</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">ADataset</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATableName</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AScriptName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GenericUpdate</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">ADataset</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATableName</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AScriptName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">FirstTimeUser</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMessages_BB</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMessageTo_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostedBy</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostDate</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetWAYLT</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">APostGroup</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGenre</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostedBy</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostDate</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetWAYLT_Summary</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostDate</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGenre</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACity</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AState</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACountry</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASchool</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeLow</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeHigh</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetWAYLT_Summary_Posts</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATitle</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtist</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AAlbum</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACity</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AState</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACountry</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASchool</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeLow</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeHigh</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">qryWAYLT_SummaryAfterScroll</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDataSet</td>
+<td class="t_cell">DataSet</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACity</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AState</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACountry</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASchool</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeLow</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeHigh</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMems_DL_Summary</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtist_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AAlbum_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AMixSet</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostDate</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGenre</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACity</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AState</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACountry</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASchool</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeLow</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeHigh</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetTracks_Search</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtist_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AAlbum_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AMixSet</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ADateAdded</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGenre</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASubGenre</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtistBasedIn</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtistWeb</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATrackTitle</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtist</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AAlbum</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASortBy</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMems_Fav</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostDate</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtistBasedIn</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtistWeb</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AMemo</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetAlbumProfile</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAlbum_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetArtistProfile</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AArtist_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMem_WAYLT</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGenre</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">APostDate</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMems</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AEMail</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGender</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AGroup</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AState</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ASchool</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AFavArtists</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ACountry</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeLow</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AAgeRangeHigh</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMiniProfile_By_Mem_ID</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMem_Info</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Get1stDegree_Info</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Mems_BB_Delete</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">ABB_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">StrReplace</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">sSrc</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">sLookFor</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">sReplaceWith</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ValidEmail</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">Value</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">FindUser</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AUsername</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMemberPic_Thumbnail</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">JPGtoBMP</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TFileName</td>
+<td class="t_cell">FileName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">SetupPageNav</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TdxMemData</td>
+<td class="t_cell">AQuery</td>
+</tr>
+<tr>
+<td class="t_cell">TcxComboBox</td>
+<td class="t_cell">APageNav</td>
+</tr>
+<tr>
+<td class="t_cell">TcxLabel</td>
+<td class="t_cell">ATotalLabel</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">QueryStr_Refresh</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TdxMemData</td>
+<td class="t_cell">AQuery</td>
+</tr>
+<tr>
+<td class="t_cell">TStringList</td>
+<td class="t_cell">AQueryStr</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AStartPage</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">ARecordsPerPage</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PageNav_First</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TcxComboBox</td>
+<td class="t_cell">APageNav</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PageNav_Previous</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TcxComboBox</td>
+<td class="t_cell">APageNav</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PageNav_Next</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TcxComboBox</td>
+<td class="t_cell">APageNav</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PageNav_Last</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TcxComboBox</td>
+<td class="t_cell">APageNav</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LoadMemberPics</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TGraphicField</td>
+<td class="t_cell">AImageField</td>
+</tr>
+<tr>
+<td class="t_cell">TdxMemData</td>
+<td class="t_cell">AQuery</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMemPic</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+<tr>
+<td class="t_cell">TGraphicField</td>
+<td class="t_cell">AImageField</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetServerDateTime</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TDateTime</td>
+<td class="t_cell">AServerDate</td>
+</tr>
+<tr>
+<td class="t_cell">TDateTime</td>
+<td class="t_cell">AServerTime</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetConn</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell"><a href="p_xmi_145.html#xmi_146">TEditConnectType</a></td>
+<td class="t_cell">AEditConnectType</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">DeleteConn</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell"><a href="p_xmi_145.html#xmi_146">TEditConnectType</a></td>
+<td class="t_cell">AEditConnectType</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ApproveConn</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetPendingConnections</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">Integer
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ConnectConfirm</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AFName</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ALName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ConnectRequest</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">InviteFriends</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName1</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName2</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName3</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName4</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName5</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AEmail1</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AEmail2</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AEmail3</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AEmail4</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AEmail5</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMemProfile</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GetMemProfilePic</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">SaveMemProfile</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ResizeImageFile</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AFileName</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMaxWidth</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMaxHeight</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">IsValid</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">ResizePercent</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TJPEGImage
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">SaveMemProfilePic</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AFileName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">UpdateMemsConnects</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Studio109_UpdateRequired</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">String
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">ExtractAndSaveLocalDB</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LoadAppVars</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_StartConnection</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">TModalResult
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_StartConnection</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AMem_ID</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AName</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">TModalResult
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Mem_Is1stDegree</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">AConnect_Mem_ID</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_ChangePass</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_ChangeEmail</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_Policy</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_MyInbox</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch_ComposeMessage</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchMem_SendPM</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchMem_WebsiteURL</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchMem_BlogURL</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchMem_PhotoAlbumURL</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchMem_ForumProfile</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchMem_ForumPosts</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">LaunchBBMessage_Link</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Launch109Music_Search</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">ATitle</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AArtist</td>
+</tr>
+<tr>
+<td class="t_cell">String</td>
+<td class="t_cell">AAlbum</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+</table><br><br><a name="xmi_57"></a><table width="500" cellspacing="1" cellpadding="2" border="0">
+<tr>
+<td class="ClassTableHeader" width="200"><b>THack</b></td>
+<td class="ClassTableHeader" width="150">
+        class
+      </td>
+</tr>
+</table>    
+
+    Inherits from: 
+
+    TForm<br><br><br></body>
+</html>

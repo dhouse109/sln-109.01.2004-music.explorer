@@ -1,0 +1,250 @@
+object frmPlaylistDLG: TfrmPlaylistDLG
+  Left = 660
+  Top = 241
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Playlist'
+  ClientHeight = 270
+  ClientWidth = 386
+  Color = 15790320
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object layoutSignIn: TdxLayoutControl
+    Left = 0
+    Top = 18
+    Width = 386
+    Height = 252
+    Align = alClient
+    ParentBackground = True
+    TabOrder = 0
+    AutoContentSizes = [acsWidth, acsHeight]
+    LookAndFeel = datMain.layoutLookFeelMain_Web
+    object Panel37: TPanel
+      Left = 4
+      Top = 7
+      Width = 150
+      Height = 13
+      BevelOuter = bvNone
+      Color = 10526880
+      TabOrder = 3
+    end
+    object Panel38: TPanel
+      Left = 4
+      Top = 232
+      Width = 150
+      Height = 13
+      BevelOuter = bvNone
+      Color = 10526880
+      TabOrder = 4
+    end
+    object lblSave: TcxLabel
+      Left = 158
+      Top = 209
+      Width = 28
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Save'
+      ParentColor = False
+      ParentFont = False
+      Properties.Alignment.Horz = taRightJustify
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = [fsUnderline]
+      Style.HotTrack = False
+      TabOrder = 5
+      OnClick = lblSaveClick
+      OnMouseEnter = cxLabelMouseEnterWhite
+      OnMouseLeave = cxLabelMouseLeaveWhite
+    end
+    object lblCancel: TcxLabel
+      Left = 192
+      Top = 209
+      Width = 36
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Cancel'
+      ParentColor = False
+      ParentFont = False
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = [fsUnderline]
+      Style.HotTrack = False
+      TabOrder = 6
+      OnClick = lblCancelClick
+      OnMouseEnter = cxLabelMouseEnterWhite
+      OnMouseLeave = cxLabelMouseLeaveWhite
+    end
+    object edtName: TcxDBTextEdit
+      Left = 88
+      Top = 46
+      Width = 121
+      Height = 21
+      DataBinding.DataField = 'Name'
+      DataBinding.DataSource = datMain.dsPlaylists
+      ParentFont = False
+      Properties.MaxLength = 25
+      Style.BorderColor = 10526880
+      Style.BorderStyle = ebsSingle
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = False
+      TabOrder = 0
+      OnKeyPress = edtNameKeyPress
+    end
+    object mmoDescription: TcxDBMemo
+      Left = 88
+      Top = 100
+      Width = 185
+      Height = 89
+      DataBinding.DataField = 'Description'
+      DataBinding.DataSource = datMain.dsPlaylists
+      ParentFont = False
+      Properties.MaxLength = 255
+      Style.BorderColor = 10526880
+      Style.BorderStyle = ebsSingle
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = False
+      TabOrder = 2
+    end
+    object dedtDateCreated: TcxDBDateEdit
+      Left = 88
+      Top = 73
+      Width = 121
+      Height = 21
+      DataBinding.DataField = 'DateCreated'
+      DataBinding.DataSource = datMain.dsPlaylists
+      ParentFont = False
+      Properties.ImmediatePost = True
+      Properties.ReadOnly = True
+      Properties.SaveTime = False
+      Properties.ShowTime = False
+      Style.BorderColor = 10526880
+      Style.BorderStyle = ebsSingle
+      Style.Color = 5987163
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWhite
+      Style.Font.Height = -11
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = False
+      Style.ButtonStyle = btsHotFlat
+      Style.ButtonTransparency = ebtHideUnselected
+      Style.PopupBorderStyle = epbsSingle
+      TabOrder = 1
+    end
+    object dxLayoutGroup17: TdxLayoutGroup
+      ShowCaption = False
+      Hidden = True
+      ShowBorder = False
+      object dxLayoutGroup18: TdxLayoutGroup
+        AutoAligns = []
+        AlignHorz = ahClient
+        AlignVert = avClient
+        Caption = 'Sign In'
+        CaptionOptions.AlignHorz = taCenter
+        LookAndFeel = datMain.layoutLookFeelMain_WebAlt5
+        ShowCaption = False
+        object dxLayoutItem19: TdxLayoutItem
+          ShowCaption = False
+          Control = Panel37
+          ControlOptions.ShowBorder = False
+        end
+        object layoutSignInItem3: TdxLayoutItem
+          Caption = 'Name:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Offsets.Top = 20
+          Control = edtName
+          ControlOptions.AutoColor = True
+          ControlOptions.ShowBorder = False
+        end
+        object layoutSignInItem2: TdxLayoutItem
+          Caption = 'Date Created:'
+          CaptionOptions.AlignHorz = taRightJustify
+          Control = dedtDateCreated
+          ControlOptions.AutoColor = True
+          ControlOptions.ShowBorder = False
+        end
+        object layoutSignInItem7: TdxLayoutItem
+          Caption = 'Description:'
+          CaptionOptions.AlignHorz = taRightJustify
+          CaptionOptions.AlignVert = tavTop
+          Control = mmoDescription
+          ControlOptions.AutoColor = True
+          ControlOptions.ShowBorder = False
+        end
+        object layoutSignInGroup3: TdxLayoutGroup
+          AutoAligns = []
+          AlignHorz = ahCenter
+          AlignVert = avBottom
+          Caption = 'New Group'
+          ShowCaption = False
+          LayoutDirection = ldHorizontal
+          ShowBorder = False
+          object layoutSignInItem4: TdxLayoutItem
+            AutoAligns = [aaVertical]
+            ShowCaption = False
+            Control = lblSave
+            ControlOptions.AutoColor = True
+            ControlOptions.ShowBorder = False
+          end
+          object layoutSignInItem1: TdxLayoutItem
+            AutoAligns = [aaVertical]
+            AlignHorz = ahRight
+            Caption = 'cxLabel1'
+            ShowCaption = False
+            Control = lblCancel
+            ControlOptions.AutoColor = True
+            ControlOptions.ShowBorder = False
+          end
+        end
+        object dxLayoutItem21: TdxLayoutItem
+          AutoAligns = [aaHorizontal]
+          AlignVert = avBottom
+          ShowCaption = False
+          Control = Panel38
+          ControlOptions.ShowBorder = False
+        end
+      end
+    end
+  end
+  object titleMain: TFlatTitlebar
+    Left = 0
+    Top = 0
+    Width = 386
+    Height = 18
+    ActiveTextColor = clWhite
+    InactiveTextColor = clSilver
+    TitlebarColor = clGray
+    Align = alTop
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    Caption = 'Playlist'
+  end
+end

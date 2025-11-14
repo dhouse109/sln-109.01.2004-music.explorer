@@ -1,0 +1,1384 @@
+<html>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+</head>
+<body class="body">
+<table width="100%">
+<tr>
+<td><span class="p_name">Package: frm_WIPCharts</span></td>
+<td class="t_cell"><a href="p_xmi_3365_diagram.html">Diagram</a></td>
+<td class="t_cell"><a href="index.html">Back to overview</a></td>
+</tr>
+</table>
+<p></p><a name="xmi_1019"></a><table width="500" cellspacing="1" cellpadding="2" border="0">
+<tr>
+<td class="ClassTableHeader" width="200"><b>TfrmWIPCharts</b></td>
+<td class="ClassTableHeader" width="150">
+        class
+      </td>
+</tr>
+</table>    
+
+    Inherits from: 
+
+    <a href="p_xmi_994.html#xmi_61">TfrmAppModule</a><br><b>Attributes</b><table width="100%" cellpadding="3" cellspacing="0" border="1">
+<tr>
+<td class="tableheader">Name</td>
+<td class="tableheader">Type</td>
+<td class="tableheader">Visibility</td>
+</tr>
+<tr>
+<td class="t_cell">FCurrentQueryStr</td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FQueryStr_Browse109</td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FQueryStr_MyFav</td>
+<td class="t_cell">TStringList
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FCurrentQuery</td>
+<td class="t_cell">TADOQuery
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FGridView</td>
+<td class="t_cell">TcxGridDBTableView
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FGridColumn</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">FClearing</td>
+<td class="t_cell">Boolean
+       
+    </td>
+<td class="t_cell">private</td>
+</tr>
+<tr>
+<td class="t_cell">pnlMain</td>
+<td class="t_cell">TPanel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutAppModuleItem1</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusic</td>
+<td class="t_cell">TdxLayoutControl
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dxLayoutGroup5</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">barMusic</td>
+<td class="t_cell">TdxBarManager
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup1</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem1</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">page109Music</td>
+<td class="t_cell">TcxPageControl
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">tabWIP</td>
+<td class="t_cell">TcxTabSheet
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLT</td>
+<td class="t_cell">TdxLayoutControl
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Shape3</td>
+<td class="t_cell">TShape
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Shape1</td>
+<td class="t_cell">TShape
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Shape6</td>
+<td class="t_cell">TShape
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">imgWAYLT_MemPic</td>
+<td class="t_cell">TcxDBImage
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblConnections</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblMusicLinks</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblStartConnection</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem</td>
+<td class="t_cell">TcxDBVerticalGrid
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Name</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Nickname</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Gender</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Age</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Location</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Hometown</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Occupation</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_AboutMe</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Schools</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_FavArtists</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Title</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">vgridWAYLT_Mem_Group</td>
+<td class="t_cell">TcxDBEditorRow
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblMemOpenLink</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridWAYLT_Summary</td>
+<td class="t_cell">TcxGrid
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_Summary</td>
+<td class="t_cell">TcxGridDBTableView
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_SummaryAVTitle</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_SummaryAVArtist</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_SummaryAVAlbum</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_SummaryAVGenre</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_SummaryTotalPosts</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxGridLevel9</td>
+<td class="t_cell">TcxGridLevel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridWAYLT_Summary_Posts</td>
+<td class="t_cell">TcxGrid
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_Summary_Posts</td>
+<td class="t_cell">TcxGridDBTableView
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_Summary_PostsDatePosted</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_Summary_PostsName</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_Summary_PostsMessage</td>
+<td class="t_cell">TcxGridDBColumn
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxGridLevel1</td>
+<td class="t_cell">TcxGridLevel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dxLayoutGroup1</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTGroup9</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dxLayoutGroup4</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTGroup8</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem7</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem15</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLT_Message</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem8</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dxLayoutItem3</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">dxLayoutGroup2</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTGroup5</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem19</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTGroup3</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem14</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem9</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem5</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem3</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem12</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem16</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem20</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup4</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemWebsite</td>
+<td class="t_cell">TdxBarButton
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemBlog</td>
+<td class="t_cell">TdxBarButton
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemPhotoAlbum</td>
+<td class="t_cell">TdxBarButton
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemForumPosts</td>
+<td class="t_cell">TdxBarButton
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">popmnuMemOpenLink</td>
+<td class="t_cell">TdxBarPopupMenu
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem17</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_Search109</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem21</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_Preview</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTItem22</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_Download</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutWAYLTGroup12</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem2</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_Date</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem6</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_Genre</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem7</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_Gender</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem8</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_AgeRange</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem10</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_State</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem11</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_Country</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem13</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_BeginSearch</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem14</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_ClearSearch</td>
+<td class="t_cell">TcxLabel
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup3</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup2</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup5</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup6</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup7</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup8</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemSendPM</td>
+<td class="t_cell">TdxBarButton
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemForumProfile</td>
+<td class="t_cell">TdxBarButton
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem3</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_MessagesFrom</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem4</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxComboBox1</td>
+<td class="t_cell">TcxComboBox
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup11</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup12</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicItem5</td>
+<td class="t_cell">TdxLayoutItem
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">Shape2</td>
+<td class="t_cell">TShape
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">layoutMusicGroup9</td>
+<td class="t_cell">TdxLayoutGroup
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+</table><b>Operations</b><table width="100%" cellpadding="3" cellspacing="0" border="1">
+<tr>
+<td class="tableheader">Name</td>
+<td class="tableheader">Parameters</td>
+<td class="tableheader">Returns</td>
+<td class="tableheader">Visibility</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseEnter</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseLeave</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseEnterWhite</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cxLabelMouseLeaveWhite</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">FormCreate</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">GridMouseUp</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">TMouseButton</td>
+<td class="t_cell">Button</td>
+</tr>
+<tr>
+<td class="t_cell">TShiftState</td>
+<td class="t_cell">Shift</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">X</td>
+</tr>
+<tr>
+<td class="t_cell">Integer</td>
+<td class="t_cell">Y</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWIPClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblMusicClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblMyFavoritesClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblTopDownloadsClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_BeginSearchClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLT_ClearSearchClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_SummaryFocusedRecordChanged</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TcxCustomGridTableView</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">TcxCustomGridRecord</td>
+<td class="t_cell">APrevFocusedRecord</td>
+</tr>
+<tr>
+<td class="t_cell">TcxCustomGridRecord</td>
+<td class="t_cell">AFocusedRecord</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">ANewItemRecordFocusingChanged</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">gridviewWAYLT_Summary_PostsFocusedRecordChanged</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TcxCustomGridTableView</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">TcxCustomGridRecord</td>
+<td class="t_cell">APrevFocusedRecord</td>
+</tr>
+<tr>
+<td class="t_cell">TcxCustomGridRecord</td>
+<td class="t_cell">AFocusedRecord</td>
+</tr>
+<tr>
+<td class="t_cell">Boolean</td>
+<td class="t_cell">ANewItemRecordFocusingChanged</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblMemOpenLinkClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblConnectionsClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblWAYLTClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblStartConnectionClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">lblMusicLinksClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemWebsiteClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemBlogClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemPhotoAlbumClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">mnuMemForumPostsClick</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_DatePropertiesChange</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">cboWAYLT_GenreKeyPress</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TObject</td>
+<td class="t_cell">Sender</td>
+</tr>
+<tr>
+<td class="t_cell">Char</td>
+<td class="t_cell">Key</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PrepareModule</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PrepareActive</td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PopMenuPopup_Right</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TdxBarPopupMenu</td>
+<td class="t_cell">APopupMenu</td>
+</tr>
+<tr>
+<td class="t_cell">TcxLabel</td>
+<td class="t_cell">ALabel</td>
+</tr>
+<tr>
+<td class="t_cell">TdxLayoutControl</td>
+<td class="t_cell">ALayout</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+<tr>
+<td class="t_cell">PopMenuPopup_Bottom</td>
+<td class="t_cell">
+<table cellpadding="2" cellspacing="1" border="0">
+<tr>
+<td class="t_cell">TdxBarPopupMenu</td>
+<td class="t_cell">APopupMenu</td>
+</tr>
+<tr>
+<td class="t_cell">TcxLabel</td>
+<td class="t_cell">ALabel</td>
+</tr>
+<tr>
+<td class="t_cell">TdxLayoutControl</td>
+<td class="t_cell">ALayout</td>
+</tr>
+</table>
+       
+    </td>
+<td class="t_cell">
+       
+    </td>
+<td class="t_cell">public</td>
+</tr>
+</table><br><br></body>
+</html>
