@@ -8,6 +8,11 @@
 ## project
 - *2004* - [Music Explorer](@project/Studio109)
 
+## prototype
+- *2026* - [Lovable](https://studio109.lovable.app)
+- *2026* - [Replit](https://studio109-app.replit.app)
+- *2026* - [Figma](https://studio109.figma.site)
+
 ## demo
 |form|code|
 |:---:|---:|
