@@ -28,7 +28,7 @@ I stopped development around the end of that year when it became apparent MySpac
 
 I scrapped the entire thing in 2005 and started learning web software frameworks like ExpressionEngine and Drupal in an attempt to build software that lived on the web rather than on the desktop.
 
-I've thought of bringing it back several times as an experiment in building platforms for local radio, but it didn't seem feasible without having a a team of 2 or 3 people.
+I've thought of bringing it back several times as an experiment in building platforms for local radio, but it didn't seem feasible without having a team of 2 or 3 people.
 
 This year I'm bringing it back using AI.
 
