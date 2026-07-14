@@ -32,6 +32,10 @@ I've thought of bringing it back several times as an experiment in building plat
 
 This year I'm bringing it back using AI.
 
+Personal note: I know the prototype demo's don't look hot. My goal during that first year of dev work was to build the core, which has no look and feel.  I took the basic concept of online forums and tried to bring it to desktop, so I borrowed the look and feel I was used to seeing without putting concern into making it more useful for the domain I was working in.  That was for after I could see it working with the scenarios I had in mind (sharing music in a playlist via P2P).
+
+I also could have asked AI to update the prototype spec from 800x600 to 1024x768 which was my actual resolution at the time, but I chose to go with the flow for the sake of keeping a constraint around my time on this experiment.
+
 ## demo
 |form|code|
 |:---:|---:|
