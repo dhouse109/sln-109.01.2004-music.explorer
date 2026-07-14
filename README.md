@@ -5,6 +5,12 @@
 ## solution
 *knowledge-management*, *media-player*, *file-manager*, *file-sharing*, *social-network*, *application*, *software*, *database*, *enterprise*, *information-management-system* ~ *client-server*, *thin-client*, *p2p*, *web-browser*, *windows-2k*, *linux*, *apache-2*, *mysql-5*, *php-5*, *sql*, *view*, *stored-proc*, *javascript*, *html*, *css*, *object-pascal*, *delphi-7*
 
+## domain
+|domain|registered|
+|:---|---:|
+|109studios.com|2004-03-24|
+|109.studio|2016-09-16|
+
 ## project
 - *2004* - [Music Explorer](@project/Studio109)
 
@@ -12,6 +18,19 @@
 - *2026* - [Lovable](https://studio109.lovable.app)
 - *2026* - [Replit](https://studio109-app.replit.app)
 - *2026* - [Figma](https://studio109.figma.site)
+
+## summary
+As soon as Fable was released, I went to work bringing old projects back to life.
+
+109studios.com began as a side project I started March 2004 to build a social network like Friendster on top of a peer-to-peer music sharing like Napster/Limewire/Kazaa/Scour.  It was inspired by the groups of friends I had at the time, who were all musicians trying to promote their music and shows.  I was also very much a fan of online music communities that shared music and wanted to expand the genere of platforms available at the time.
+
+I stopped development around the end of that year when it became apparent MySpace was doing what I wanted to do, but using web technology instead of desktop technology.
+
+I scrapped the entire thing in 2005 and started learning web software frameworks like ExpressionEngine and Drupal.
+
+I've thought of bringing it back several times as an expirment in building platforms for local radio, but it didn't seem feasible without having a a team of 2 or 3 people.
+
+This year I'm bringing it back using AI.
 
 ## demo
 |form|code|
