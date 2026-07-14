@@ -22,7 +22,7 @@
 ## summary
 As soon as Fable was released, I went to work bringing old projects back to life.
 
-109studios.com began as a side project I started March 2004 to build a social network like Friendster on top of a peer-to-peer music sharing like Napster/Limewire/Kazaa/Scour.  It was inspired by the groups of friends I had at the time, who were all musicians trying to promote their music and shows.  I was also very much a fan of online music communities that shared music and wanted to expand the genre of platforms available at the time.
+109studios.com began as a side project I started March 2004 to build a social network like Friendster on top of peer-to-peer music sharing like Napster/Limewire/Kazaa/Scour.  It was inspired by the groups of friends I had at the time, who were all musicians trying to promote their music and shows.  I was also very much a fan of online music communities that shared music and wanted to expand the genre of platforms available at the time.
 
 I stopped development around the end of that year when it became apparent MySpace was doing what I wanted to do, but using web technology instead of desktop technology.
 
